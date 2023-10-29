@@ -8,6 +8,7 @@ Welcome to the Web Application Security Testing repository! This collection prov
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Running Docker Compose](#docker-compose)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -50,6 +51,54 @@ To start an environment, use the associated script:
 ```
 
 Replace run-mutillidae.sh with the appropriate script for the web application you want to test.
+
+<a name="docker-compose"></a>
+## Running Docker Compose
+
+To run your Docker Compose configuration, follow these steps:
+
+1. Open a terminal or command prompt.
+
+2. Navigate to the directory where your `docker-compose.yml` file is located using the `cd` command:
+
+   ```
+   cd /path/to/your/docker/compose/directory
+   ```
+To start the containers defined in the docker-compose.yml file, use:
+
+```
+docker-compose up
+```
+
+To run the containers in the background, add the -d flag:
+
+```
+docker-compose up -d
+```
+
+To stop and remove the containers defined in the docker-compose.yml file, use:
+
+```
+docker-compose down
+```
+
+To view the logs of the containers, use:
+
+```
+docker-compose logs
+```
+
+To rebuild the containers (e.g., after changes to Docker images or the docker-compose.yml file), use:
+
+```
+docker-compose build
+```
+
+To stop the running containers without removing them, use:
+
+```
+docker-compose stop
+```
 
 <a name="contributing"></a>
 ## Contributing
