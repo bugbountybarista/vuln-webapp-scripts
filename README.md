@@ -15,8 +15,10 @@ Welcome to the Web Application Security Testing repository! This collection prov
 ## Introduction
 
 This repository offers pre-configured Docker environments for the following web applications:
-- [Mutillidae](https://github.com/webpwnized/mutillidae)
-- [bWAPP](https://github.com/ethicalhack3r/bWAPP)
+- [bWAPP]()
+- [Damn Vulnerable Web App - DVWA]()
+- [Juice Shop]()
+- [Mutillidae]()
 
 The included scripts make it easy to launch and manage these environments for security testing and assessment.
 
