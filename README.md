@@ -4,7 +4,7 @@
 Welcome to the Web Application Security Testing repository! This collection provides Docker-based security testing environments for popular web applications and a set of scripts to manage and launch them for penetration testing and security assessment.
 
 ## Table of Contents
-- [Introduction](#introductio)
+- [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
