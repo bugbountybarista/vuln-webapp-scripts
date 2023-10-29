@@ -34,8 +34,8 @@ Before using the provided scripts and environments, ensure you have the followin
 1. Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/webapp-security-testing.git
-   cd webapp-security-testing
+   git clone https://github.com/bugbountybarista/vuln-webapp-scripts.git
+   cd vuln-webapp-scripts
    ```
 
 2. Follow the instructions in the individual application directories (e.g., mutillidae, bwapp, dvwa) to set up and configure each environment.
